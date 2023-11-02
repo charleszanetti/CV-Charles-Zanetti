@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="indexcv.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles CV</title>
-<body>
-    <header class="navBar">
-        
-        <a href="#" class="logo">Charles Zanetti</a>
+import {Charlescv} from "../../components/CharlesCV"
 
-        <nav class="nav">
+ export const Home = () => {
+  return (
+    <div>
+      <header>
+        
+        <a href="#">Charles Zanetti</a>
+
+        <nav>
             <a href="#">home</a>
             <a href="#">about</a>
             <a href="#">skills</a>
@@ -20,8 +16,8 @@
 
     </header>
 
-    <section class="home">
-        <div class="home_content">
+    <section>
+        <div>
 
             <h3>Hello, You can call Me</h3>
 
@@ -36,18 +32,18 @@
                  voluptas?
             </p>
 
-            <div class="social-media">
-                <img src="/Img/Fundo-verde-1.jpg" alt="">
-                
+            <div>
+             
             </div>
-
         </div>
-        <div class="photo"></div>
+        <div></div>
     </section>
 
     <footer>
         <div></div>
     </footer>
-<script src="indexcv.js"></script>
-</body>
-</html>
+    </div>
+  );
+}
+
+
